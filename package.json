@@ -9,6 +9,7 @@
     "dev:test": "yarn dev",
     "build": "vite build",
     "preview": "vite preview",
+    "start": "vite preview",
     "lint": "prettier --check --cache . && eslint --ignore-path .gitignore .",
     "lint:fix": "prettier --write --cache . && eslint --fix --ignore-path .gitignore .",
     "format": "prettier --write --cache .",
@@ -19,8 +20,7 @@
     "test:coverage": "vitest run --coverage",
     "test:browser": "cypress run",
     "test": "test:unit && test:browser",
-    "cy": "cypress open",
-    "start": "yarn start"
+    "cy": "cypress open"
   },
   "devDependencies": {
     "@cypress/snapshot": "2.1.7",
